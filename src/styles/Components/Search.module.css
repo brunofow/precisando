@@ -1,0 +1,30 @@
+.inputBox {
+  display: flex;
+}
+
+.inputBox input {
+  width: 400px;
+  height: 46px;
+  border-radius: 8px 0 0 8px;
+  background: var(--light);
+  font-size: 1.1rem;
+  border: 0;
+  padding-left: 10px;
+  margin-bottom: 2rem;
+}
+
+.inputBox button {
+  height: 46px;
+  width: 80px;
+  border: 0;
+  background: var(--primary-dark);
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox button svg {
+  color: var(--secondary)
+}

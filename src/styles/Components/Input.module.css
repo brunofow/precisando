@@ -1,0 +1,33 @@
+.inputBox {
+  display: flex;
+  position: relative;
+}
+
+.inputBox input {
+  width: 400px;
+  height: 46px;
+  border-radius: 8px;
+  background: var(--light);
+  font-size: 18px;
+  border: 0;
+  padding-left: 10px;
+  margin-bottom: 2rem;
+}
+
+.inputBox label {
+  color: #969696;
+  font-size: 18px;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  transition: all 0.3s;
+  cursor: text;
+}
+
+.inputBox input:focus + label,
+.inputBox input:not(:placeholder-shown) + label {
+  transform: translate(-5px, -34px);
+  font-weight: bold;
+  color: var(--white);
+  cursor: default;
+}

@@ -1,0 +1,35 @@
+.preview {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.preview img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.inputBox {
+  display: flex;
+  position: relative;
+}
+
+.inputBox input {
+  font-size: 18px;
+  border: 0;
+  margin-bottom: 3rem;
+}
+.inputBox label {
+  background: var(--light);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding-left: 10px;
+  color: #969696;
+  font-size: 18px;
+  cursor: pointer;
+  width: 400px;
+  height: 46px;
+}
