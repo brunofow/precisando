@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="public/logo.svg">
+</div>
 
-## Getting Started
+#
 
-First, run the development server:
+<h4 align="center">🚧 Precisando 👍 em construção</h4>
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center">Uma plataforma para reunir quem precisa se desfazer de alguma coisa, e tem a possibilidade de doar, e um donatário que precise dessa coisa.</p>
+
+# 📋 Sobre o Projeto
+
+Precisando é uma maneira de conectar pessoas que estão dispostas a ajudar umas as outras doando algo que esteja em boas condições de uso.
+
+Cadastrar um item na plataforma é bem simples, é necessário:
+
+- Ser cadastrado na plataforma
+- Fazer upload de 4 imagens do item cadastrado
+- Colocar um titulo e descrição do item, explicando condição e, se houver, algum defeito.
+
+Depois disso, assim que alguém se interessar, ele pode iniciar uma conversa pelo chat da plataforma para definir corretamente onde retirar o item.
+
+# 💾 Como executar o projeto
+
+Este projeto é feito utilizando [Next.js][next.js], então você vai precisar do [Node.js][node.js] para poder executá-lo utilizando o npm (você também pode utilizar o [Yarn][yarn] )
+
+### Iniciando a aplicação (Servidor e Front-End)
+
+```
+# Clonando o repositório
+$ git clone https://github.com/brunofow/precisando.git
+
+# Acessando a pasta do projeto
+$ cd precisando
+
+# Instalando as dependências
+$ npm install
+# Ou
+$ yarn install
+
+# Executando a aplicação
+$ npm dev
+# Ou
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 💪 Contribuindo para o projeto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 1️⃣ Faça um fork do repositório
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 2️⃣ Clone o repositório
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 3️⃣ Faça suas alterações e crie uma branch: `git checkout -b <nome-da-sua-branch>`
 
-## Learn More
+### 4️⃣ Faça um commit, com uma mensagem dizendo qual foi a alteração: `git commit-m "<sua-mensagem>"`
 
-To learn more about Next.js, take a look at the following resources:
+### 5️⃣ Agora é só fazer o push das alterações: `git push origin <nome-da-sua-branch>`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Se houver dúvidas, ou quiser mais detalhes, da uma olhada [neste guia sobre contribuir no Github](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# 👨‍💻 Autor
 
-## Deploy on Vercel
+<img src="https://github.com/brunofow.png" width="100" style="border-radius: 50%" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Bruno Campos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="https://linkedin.com/in/brunofow">
+<img src="https://img.shields.io/static/v1?label=Linkedin&message=brunofow&color=0A66C2&style=for-the-badge&logo=linkedin" />
+</a>
+
+
+<img src="https://img.shields.io/static/v1?label=E-mail&message=brunocamposfow@gmail.com&color=EA4335&style=for-the-badge&logo=gmail" />
+
+[next.js]: https://nextjs.org/
+[node.js]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
